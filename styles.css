@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+/* Navbar Section */
+
+header {
+  position: fixed;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  background-color: #f7f7f7;
+  height: 80px;
+}
+
+#nav-bar {
+  display: flex;
+  margin-left: auto;
+}
+
+#header-img {
+  width: 80px;
+  padding-left: 10px
+}
+
+header ul {
+display: flex;
+list-style-type: none;
+justify-content: flex-end;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+}
+
+header li {
+  display: block;
+  background-color: #f7f7f7;
+  line-height: 80px;
+  margin: 0;
+  padding: 0 20px;
+  height: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  #nav-bar {
+    flex-direction: column;
+  }
+}
+
+/* Features Section */
+
+main {
+  padding-top: 80px;
+}
+
+#features-section, #contact-section {
+  font-family: 'Courier Prime', monospace;
+  margin: auto;
+  padding: 30px;
+  max-width: 650px;
+  text-align: center
+}
+
+section h1 {
+  font-size: 2rem;
+}
+
+/* CLimate Video Section */
+
+#climate-video {
+  margin: auto;
+  width: 560px;
+  padding: 30px;
+}
